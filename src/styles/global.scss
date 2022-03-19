@@ -1,0 +1,54 @@
+:root {
+  --white: #FFFFFF;
+  --red: #E52E4D;
+  --yellow: #EBA417;
+  --green: #33CC95;
+
+  --purple--200: #835AFD;
+  --purple--400: #6933FF;
+  --purple--600: #5429CC;
+
+  --google: #EA4335;
+  --discord: #353CEA;
+  --twitch: #6F35EA;
+  --twitter: #359EEA;
+  --github: #555863;
+
+  --gray-300: #969CB2;
+  --gray-800: #363F5F;
+
+  --background: #E5E5E5;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  @media (max-width: 1080px) {
+    font-size: 93.75%;
+  }
+  @media (max-width: 720px) {
+    font-size: 87.5%;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--white);
+}
+
+body, input, select, textarea, button {
+  font: 400 1rem "Roboto", sans-serif;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}

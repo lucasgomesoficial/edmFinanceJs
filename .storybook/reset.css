@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400;700;900&display=swap');
+
+#root {
+  display: flex;
+  width: 100%;
+  justify-items: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+body {
+  overflow: overlay;
+}
+
+* {
+  font-family: 'Roboto', sans-serif;
+}

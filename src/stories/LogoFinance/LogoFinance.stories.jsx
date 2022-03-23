@@ -8,4 +8,4 @@ export default {
 
 const Template = (args) => <LogoFinance {...args} />;
 
-export const Primary = Template.bind({});
+export const Logo = Template.bind({});

@@ -1,11 +1,5 @@
-import { LogoFinance } from '../../components/LogoFinance/LogoFinance'
-
-
-
 export const HomeTemplate = () => {
   return (
-    <>
-    <LogoFinance />
-    </>
+    <h1>Home</h1>
   )
 }

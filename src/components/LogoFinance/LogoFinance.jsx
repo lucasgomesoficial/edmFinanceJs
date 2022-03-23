@@ -1,9 +1,9 @@
 import logoImg from '../../stories/assets/img/logoFinance.svg';
-import './logoFinance.module.css';
+import styles from './logoFinance.module.scss';
 
 export const LogoFinance = () => {
   return (
-    <div className='logoFinance'>
+    <div className={styles.logoFinance}>
       <img src={logoImg} alt='Logo Edm Finance' />
       <h1>Edm Finance</h1>
     </div>

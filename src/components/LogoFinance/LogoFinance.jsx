@@ -1,4 +1,4 @@
-import logoImg from '../../stories/assets/img/logoFinance.svg';
+import logoImg from '../../assets/img/logoFinance.svg';
 import styles from './logoFinance.module.scss';
 
 export const LogoFinance = () => {

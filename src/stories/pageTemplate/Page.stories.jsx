@@ -1,6 +1,6 @@
+import { userEvent, within } from '@storybook/testing-library';
 import React from 'react';
 import { PageTemplate } from '../../templates/pageTemplate/Page';
-import { within, userEvent } from '@storybook/testing-library';
 
 export default {
   title: 'Example/Page',

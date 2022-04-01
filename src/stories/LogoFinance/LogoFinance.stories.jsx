@@ -2,7 +2,7 @@ import React from 'react';
 import { LogoFinance } from '../../components/LogoFinance/LogoFinance';
 
 export default {
-  title: 'Component/LogoFinance',
+  title: 'Components/LogoFinance',
   component: LogoFinance,
 };
 

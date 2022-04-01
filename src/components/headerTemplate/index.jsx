@@ -1,6 +1,5 @@
 import React from 'react';
 import { ButtonTemplate } from '../buttonTemplate';
-
 import './styles.css';
 
 export const HeaderTemplate = ({

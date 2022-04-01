@@ -4,7 +4,7 @@
   &#xa0;
 
   <a href="">Demo (upload a fzer)</a> &#xa0; | &#xa0;
-  <a href="https://trello.com/c/T5UHscbz/5-cpm-003-attreadme">Trello</a>
+  <a href="https://trello.com/b/AJenouCn/components">Trello</a>
 </div>
 
 <h1 align="center">EdmfinanceJs</h1>

@@ -1,5 +1,5 @@
 import { INITIAL_VIEWPORTS } from '@storybook/addon-viewport';
-import './reset.scss';
+import './reset.css';
 
 export const parameters = {
   layout: 'centered',

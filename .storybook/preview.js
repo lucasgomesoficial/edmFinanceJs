@@ -1,10 +1,9 @@
-import { INITIAL_VIEWPORTS } from '@storybook/addon-viewport'
-
-import './reset.css'
+import { INITIAL_VIEWPORTS } from '@storybook/addon-viewport';
+import './reset.scss';
 
 export const parameters = {
   layout: 'centered',
-  actions: { argTypesRegex: "^on[A-Z].*" },
+  actions: { argTypesRegex: '^on[A-Z].*' },
   controls: {
     matchers: {
       color: /(background|color)$/i,
@@ -12,6 +11,6 @@ export const parameters = {
     },
   },
   viewport: {
-    viewports: INITIAL_VIEWPORTS
-  }
-}
+    viewports: INITIAL_VIEWPORTS,
+  },
+};

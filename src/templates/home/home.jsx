@@ -1,14 +1,13 @@
-import DiscordImg from '../../assets/img/logoDiscord.png';
-import GithubImg from '../../assets/img/logoGithub.png';
+import DiscordImg from '../../assets/img/logoDiscord1.png';
+import GithubImg from '../../assets/img/logoGithub1.png';
 import GoogleImg from '../../assets/img/logoGoogle.svg';
-import TwitchImg from '../../assets/img/logoTwitch.png';
-import TwitterImg from '../../assets/img/logoTwitter.png';
+import TwitchImg from '../../assets/img/logoTwitch1.png';
+import TwitterImg from '../../assets/img/logoTwitter1.png';
 import { SignButton } from '../../components/SignButton/SignButton';
-import { SignButtons } from '../../components/Signbuttons/SignButtons';
 
 export const HomeTemplate = () => {
   return (
-    <SignButtons>
+    <>
       <SignButton
         backgroundColor='#EA4335'
         title='Entre com sua conta Google'
@@ -34,6 +33,6 @@ export const HomeTemplate = () => {
         title='Entre com sua conta Github'
         image={GithubImg}
       />
-    </SignButtons>
+    </>
   );
 };

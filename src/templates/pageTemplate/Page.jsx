@@ -1,6 +1,6 @@
 import React from 'react';
 import { HeaderTemplate } from '../../components/headerTemplate';
-import './page.styles.css';
+import './page.styles.scss';
 
 export const PageTemplate = () => {
   const [user, setUser] = React.useState();

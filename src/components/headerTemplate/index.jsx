@@ -1,7 +1,6 @@
 import React from 'react';
 import { ButtonTemplate } from '../buttonTemplate';
-
-import './styles.css';
+import './styles.scss';
 
 export const HeaderTemplate = ({
   user,
